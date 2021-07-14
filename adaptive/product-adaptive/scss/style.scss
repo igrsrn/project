@@ -1,0 +1,23 @@
+@import "../packages/bootstrap-4.2.1/scss/bootstrap.scss";
+@import "variables";
+
+@import "header";
+@import "topNav";
+@import "newArrivals";
+@import "leftNav";
+@import "productsAdjustment";
+@import "products";
+@import "pagination";
+@import "benefits";
+@import "subscribe";
+@import "footer";
+@import "copyrights";
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.productsContainer {
+    margin-top: 60px;
+}

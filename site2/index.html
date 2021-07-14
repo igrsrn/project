@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                BRAN<span>D</span>
+            </div>
+
+            <form class="topSearch">
+                <div>
+                    Browse
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <input type="text" placeholder="Search for Item...">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+
+            <img class="cart" src="images/cart.png" alt="">
+            <button class="myAccountBtn">
+                My Account
+                <i class="fas fa-caret-down"></i>
+            </button>
+        </div>
+    </div>
+
+    <nav class="topNav">
+        <a href="#">Home</a>
+        <a href="#">Man</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Accoseriese</a>
+        <a href="#">Featured</a>
+        <a href="#">Hot Deals</a>
+    </nav>
+
+    <div class="newArrivals">
+        <div class="container">
+            <h1>NEW ARRIVALS</h1>
+            <nav>
+                <a href="#">HOME</a>
+                /
+                <a href="#">MEN</a>
+                /
+                <a href="#">NEW ARRIVALS</a>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <div class="container productsGrid">
+            <div class="productGridRow">
+                <div class="productGridLabel">PRODUCT DETAILS</div>
+                <div class="productGridLabel">UNITE PRICE</div>
+                <div class="productGridLabel">QUANTITY</div>
+                <div class="productGridLabel">SHIPPING</div>
+                <div class="productGridLabel">SUBTOTAL</div>
+                <div class="productGridLabel">ACTION</div>
+            </div>
+
+            <section class="productGridRow">
+                <div class="productDetails">
+                    <img src="images/product1.jpg" alt="">
+                    <div class="productSpecsWrap">
+                        <h2 class="productName">
+                            MANGO PEOPLE T-SHIRT
+                        </h2>
+                        <div class="productSpecs">
+                            Color: <span>Red</span>
+                            <br>
+                            Size: <span>Xll</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="productGridUnit">
+                    150$
+                </div>
+                <div class="productGridUnit">
+                    <input type="text" placeholder="2">
+                </div>
+                <div class="productGridUnit">
+                    FREE
+                </div>
+                <div class="productGridUnit">
+                    $300
+                </div>
+                <div class="productGridUnit">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+            </section>
+            <section class="productGridRow">
+                <div class="productDetails">
+                    <img src="images/product2.jpg" alt="">
+                    <div class="productSpecsWrap">
+                        <h2 class="productName">
+                            MANGO PEOPLE T-SHIRT
+                        </h2>
+                        <div class="productSpecs">
+                            Color: <span>Red</span>
+                            <br>
+                            Size: <span>Xll</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="productGridUnit">
+                    150$
+                </div>
+                <div class="productGridUnit">
+                    <input type="text" placeholder="2">
+                </div>
+                <div class="productGridUnit">
+                    FREE
+                </div>
+                <div class="productGridUnit">
+                    $300
+                </div>
+                <div class="productGridUnit">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+            </section>
+            <section class="productGridRow">
+                <div class="productDetails">
+                    <img src="images/product3.jpg" alt="">
+                    <div class="productSpecsWrap">
+                        <h2 class="productName">
+                            MANGO PEOPLE T-SHIRT
+                        </h2>
+                        <div class="productSpecs">
+                            Color: <span>Red</span>
+                            <br>
+                            Size: <span>Xll</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="productGridUnit">
+                    150$
+                </div>
+                <div class="productGridUnit">
+                    <input type="text" placeholder="2">
+                </div>
+                <div class="productGridUnit">
+                    FREE
+                </div>
+                <div class="productGridUnit">
+                    $300
+                </div>
+                <div class="productGridUnit">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+            </section>
+
+            <div class="productButtons">
+                <button>
+                    CLEAR SHOPPING CART
+                </button>
+                <button>
+                    CONTINUE SHOPPING
+                </button>
+            </div>
+        </div>
+
+        <div class="container shipping">
+            <section class="shippingColumn">
+                <h2>SHIPPING ADRESS</h2>
+                <select class="shippingSelect">
+                    <option value="Bangladesh">Bangladesh</option>
+                </select>
+                <input class="shippingInput" type="text" placeholder="State">
+                <input class="shippingInput" type="text" placeholder="Postcode / Zip">
+                <button class="shippingBtn">GET A QUOTE</button>
+            </section>
+            <section class="shippingColumn">
+                <h2>COUPON DISCOUNT</h2>
+                <label for="coupon">
+                    Enter your coupon code if you have one
+                </label>
+                <input class="shippingInput couponInput" id="coupon" type="text" placeholder="State">
+                <button class="shippingBtn">APPLY COUPON</button>
+            </section>
+            <section class="shippingColumn grandTotal">
+                <div class="subTotalText">
+                    SUB TOTAL <span class="subTotalValue">$900</span>
+                </div>
+                <div class="grandTotalText">
+                    <h2>GRAND TOTAL</h2> <span class="grandTotalValue">$900</span>
+                </div>
+                <button class="proceedBtn">
+                    PROCEED TO CHECKOUT
+                </button>
+            </section>
+        </div>
+    </main>
+
+
+    <div class="reviewsAndSubscribe">
+        <div class="container">
+            <div class="reviews">
+                <div class="reviewsInside">
+                    <img src="images/reviewPerson.png" alt="">
+                    <div class="reviewsContent">
+                        <blockquote class="reviewsText">
+                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                        </blockquote>
+                        <div class="reviewsName">
+                            Bin Burhan
+                        </div>
+                        <div class="reviewsLocation">
+                            Dhaka, Bd
+                        </div>
+                        <div class="reviewsSwitcher">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="subscribeHeader">SUBSCRIBE</div>
+                <div class="subscribeText">
+                    FOR OUR NEWLETTER AND PROMOTION
+                </div>
+                <form action="">
+                    <input placeholder="Enter Your Email" type="text">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footerColumn">
+                <div class="logo">
+                    BRAN<span>D</span>
+                </div>
+                <div class="footerText1">
+                    Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded
+                    array of processes and cross-unit partnerships.
+                </div>
+                <div class="footerText2">
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </div>
+            </div>
+            <section class="footerColumn">
+                <h2>COMPANY</h2>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">About</a>
+                    <a href="#">How It Works</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </section>
+            <section class="footerColumn">
+                <h2>INFORMATION</h2>
+                <nav>
+                    <a href="#">Tearms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">How to Buy</a>
+                    <a href="#">How to Sell</a>
+                    <a href="#">Promotion</a>
+                </nav>
+            </section>
+            <section class="footerColumn">
+                <h2>SHOP CATEGORY</h2>
+                <nav>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">Child</a>
+                    <a href="#">Apparel</a>
+                    <a href="#">Brows All</a>
+                </nav>
+            </section>
+        </div>
+    </div>
+
+    <div class="copyrights">
+        <div class="container">
+            <div>
+                &copy; 2017 Brand All Rights Reserved.
+            </div>
+            <nav class="socials">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>
